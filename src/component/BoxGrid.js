@@ -44,7 +44,6 @@ const BoxGrid = () => {
             <div className="col-span-1 row-span-1">
                  <Box img={imgLinkArr[2]} upText1="PERSPECTIVE" upText2="READ" cardText={
                  <CardTextCenter
-                   
                     secondaryText="The AI Supply Chain"
                  />
                  }/>
@@ -58,10 +57,12 @@ const BoxGrid = () => {
                 />}/>
             </div>
 
-            <div className="col-span-2 row-span-2 !text-black">
+            <div className="col-span-2 row-span-2">
                 <VidBox1 upText1="SPOTLIGHT" upText2="READ" vidLink="https://www.sequoiacap.com/wp-content/uploads/sites/6/2024/03/Sequence-01.mp4" cardText={
                 <CardTextCenter
-                    mainText="Watershed: Climate Awakenings at Scale"
+                    textBlack={true}
+                    mainText="Ai Ascent 2024"
+                    secondaryText="Video highlights from our AI conference"
                 />}/>
             </div>
 
